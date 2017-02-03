@@ -1,11 +1,15 @@
 import React, { Component } from 'react';
 import Navigation from './navigation.js';
 
-const Main = () => {
+const Main = (props) => {
   return(
     <div>
       <Navigation />
-      <p>Main.js renders here</p>
+      <div className='row'>
+        <div className="columns medium-8 large-6 small-centered">
+          {props.children}
+        </div>
+      </div>
     </div>
   );
 

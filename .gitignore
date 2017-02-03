@@ -1,6 +1,9 @@
 /node_modules
 bundle.js
 npm-debug.log
+/.sass-cache
+/style/.sass-cache
+/style/style.css.map
 
 # IntelliJ
 *.iml

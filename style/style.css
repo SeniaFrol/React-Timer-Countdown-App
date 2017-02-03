@@ -3,9 +3,9 @@
 
 .top-bar .menu-text {
   color: white; }
-.top-bar .menu a {
-  font-weight: 700; }
 .top-bar .menu .menu-text a {
   display: inline; }
+.top-bar .active-link {
+  font-weight: 700; }
 
 /*# sourceMappingURL=style.css.map */
