@@ -22,7 +22,7 @@ class Countdown extends Component {
   }
 
   startTimer() {
-    let timer = setInterval(() => {
+    const timer = setInterval(() => {
       let newCount = this.state.count - 1;
       this.setState({
         count: newCount >=0 ? newCount : 0
